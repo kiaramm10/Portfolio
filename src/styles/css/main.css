@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
+body {
+  background-color: #131418;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  top: 0;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.container header {
+  background-color: #161920;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 85px;
+  margin-right: 20px;
+  position: fixed;
+  transition: 0.7s;
+  z-index: 10;
+  width: 100%;
+}
+.container header .navbar .nav-links {
+  list-style: none;
+}
+.container header .navbar .nav-links .menu li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.container header .navbar .nav-links .menu li:hover {
+  transform: scale(1.1);
+}
+.container header .navbar .nav-links .menu li .option {
+  text-decoration: none;
+  color: white;
+}
+.container header .navbar .nav-links .menu li .option:hover {
+  color: #5504A9;
+}
+.container header a button {
+  margin-left: 20px;
+  margin-right: 30px;
+  color: white;
+  padding: 9px 25px;
+  background: #5504A9;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.container header a button:hover {
+  background-color: white;
+  color: #5504A9;
+  transform: scale(1.1);
+}
+
+.container-banner .banner {
+  width: 100%;
+  margin-top: 80px;
+}
+.container-banner .content_banner {
+  position: absolute;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.container-banner .content_banner .primerTitle {
+  margin-top: -450px;
+  font-size: 48px;
+  margin-left: -180px;
+}
+.container-banner .content_banner .secondtitle {
+  margin-top: -40px;
+  font-size: 48px;
+  margin-left: 90px;
+}
+.container-banner .content_banner p {
+  text-align: left;
+  margin-left: 90px;
+  margin-top: -20px;
+}
+.container-banner .content_banner a button {
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-right: 220px;
+  color: #5504A9;
+  padding: 9px 25px;
+  background: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: "Poppins", sans-serif;
+}
+.container-banner .content_banner a button:hover {
+  background-color: #5504A9;
+  color: white;
+  transform: scale(1.1);
+}
+.container-banner .content_banner .redes {
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+  flex: auto;
+  display: flex;
+  align-items: left;
+  margin-left: 80px;
+  margin-right: 270px;
+  justify-content: space-around;
+}
+.container-banner .content_banner .redes .buttons {
+  background-color: #161920;
+  border: 1px solid #FFFFFF;
+  width: 42px;
+  height: 42px;
+  color: white;
+  padding: 2px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  line-height: 45px;
+}
+
+.sectionAboutMe {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  padding: 70px;
+}
+.sectionAboutMe .container-aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+  color: white;
+}
+.sectionAboutMe .container-aboutme h2 {
+  font-size: 40px;
+}
+.sectionAboutMe .container-aboutme .description {
+  flex-direction: column;
+  font-family: "Roboto" sans-serif;
+  font-size: 20px;
+  margin-right: 100px;
+  max-width: 35%;
+  animation-name: logoAnimation;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 60s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: initial;
+}
+@keyframes logoAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  20%, 80% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+}
+.sectionAboutMe .container-aboutme .description h3 {
+  color: white;
+}
+
+.section_contact {
+  background-color: #3E047B;
+  padding: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.section_contact h2 {
+  color: white;
+  font-size: 40px;
+}
+.section_contact p {
+  color: white;
+  width: 45%;
+  margin-left: 360px;
+}
+.section_contact a button {
+  margin-top: 30px;
+  margin-left: 20px;
+  color: #5504A9;
+  padding: 9px 25px;
+  background: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: "Poppins", sans-serif;
+}
+.section_contact a button:hover {
+  background-color: #5504A9;
+  color: white;
+  transform: scale(1.1);
+}
+
+.section_project {
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+.section_project h2 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+.section_project .sliderProjects {
+  margin-bottom: 50px;
+}
+.section_project .sliderProjects .slick-slide {
+  transform: scale(0.8);
+  opacity: 0.3;
+  transition: all ease 0.5s;
+}
+.section_project .sliderProjects .slick-slide .projectos {
+  width: 414px;
+}
+.section_project .sliderProjects .slick-slide h3 {
+  color: white;
+}
+.section_project .sliderProjects .slick-slide p {
+  color: white;
+  text-align: justify;
+}
+.section_project .sliderProjects .slick-slide.slick-current {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.section_skills {
+  font-family: "Poppins", sans-serif;
+  background-color: #5504A9;
+  padding-bottom: 100px;
+}
+.section_skills h2 {
+  color: white;
+  font-size: 40px;
+  padding: 50px;
+}
+.section_skills .fondo_skills {
+  background-color: #3E047B;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.section_skills .fondo_skills .habilidades {
+  background-color: #1D0338;
+  width: 15%;
+  margin: 15px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 20px;
+  animation-name: logoAnimation;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 15;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-play-state: initial;
+}
+@keyframes logoAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  20%, 80% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+}
+.section_skills .fondo_skills .habilidades h3 {
+  color: white;
+}/*# sourceMappingURL=main.css.map */

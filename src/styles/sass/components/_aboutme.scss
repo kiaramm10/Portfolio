@@ -1,0 +1,51 @@
+.sectionAboutMe{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    padding: 70px;
+    .container-aboutme{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-align: left;
+            color: white;
+            h2{
+                font-size: 40px;
+            }
+            .description{
+                flex-direction: column;
+                font-family:'Roboto' sans-serif;
+                font-size: 20px;   
+                margin-right: 100px;
+                max-width: 35%;
+
+                animation-name: logoAnimation;
+                animation-duration: 15s;
+                animation-timing-function: ease-in-out;
+                animation-delay: 60s;
+                animation-iteration-count: infinite;
+                animation-direction: normal;
+                animation-fill-mode: forwards;
+                animation-play-state: initial;
+
+            @keyframes logoAnimation {
+                0% {
+                  opacity: 0;
+                  transform: translateX(-100px);
+                }
+                20%,80% {
+                  opacity: 1;
+                  transform: translateX(0);
+                }
+                100% {
+                  opacity: 0;
+                  transform: translateX(100px);}
+              }
+            h3{
+                color: white;
+            }
+            }
+        
+        
+    }
+}
