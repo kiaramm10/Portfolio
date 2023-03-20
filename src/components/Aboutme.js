@@ -1,4 +1,4 @@
-import React from 'react'
+import './../styles/css/main.css';
 
 function AboutMe() {
   return (
@@ -6,7 +6,7 @@ function AboutMe() {
             <div className="container-aboutme">
                     <div className="description">
                        <h2>About Me</h2>
-                        <p> Lorem ipsum dolor sit amet consectetur. Ut sem scelerisque senectus in. Ornare amet commodo molestie metus condimentum. Est nec scelerisque commodo at aliquam tempor ac imperdiet. In nam turpis vitae mattis magna. Ut ornare pharetra magna amet egestas suspendisse sed. Id facilisi at mi sed feugiat libero egestas et ut. Viverra sapien ipsum neque elit ornare bibendum purus. </p>
+                        <p> I am a very friendly person and I feel comfortable working in a team. I enjoy learning new things, I am always looking to grow and improve both personally and professionally. I have front-end skills, I feel very confident working with web technologies such as HTML, CSS and JavaScript. As for the back-end part, I also defend myself and I am in the process of learning to improve. I adapt easily to changes and new situations. I am currently doing a full-stack bootcamp, to acquire new skills and become a full-fledged developer. </p>
                     </div>
                     <div className="img_aboutme">
                         <img src='./images/fotomia.svg' alt='Foto Kiara'></img>
