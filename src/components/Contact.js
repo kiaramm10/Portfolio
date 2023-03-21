@@ -6,7 +6,7 @@ function Contact() {
       <h2>What's Next?</h2>
       <h2>Get in Touch</h2>
       <p>Lorem ipsum dolor sit amet consectetur. Euismod turpis non duis quis facilisi sit fermentum venenatis. Pellentesque dolor facilisis vestibulum in.</p>
-      <a href="mailto:kiaramalasquez5@gmail.com" class='button'><button><b>Say Hello!</b></button></a>
+      <a href="mailto:kiaramalasquez5@gmail.com" className='button'><button><b>Say Hello!</b></button></a>
     </section>
   )
 }

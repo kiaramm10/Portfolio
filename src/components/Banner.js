@@ -10,7 +10,7 @@ function Banner() {
         <h2 className='primerTitle'>Hi There,</h2>
         <h2 className='secondtitle'>I'm Kiara Malasquez</h2>
         <p>I Am a Full Stack Developer </p>
-        <a href='#aboutme' class='button'><button><b>Start</b></button></a>
+        <a href='#aboutme' className='button'><button><b>Start</b></button></a>
         <div className="redes">
           <a href="https://github.com" target="_blank" className='buttons' rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />

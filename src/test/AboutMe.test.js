@@ -8,4 +8,9 @@ describe('AboutMe component', () => {
         const heading = screen.getByRole('heading', { name: 'About Me'})
         expect(heading).toBeInTheDocument();
     })
+    test('la caja de texto se encuentra en el documento', () =>{
+        render(<AboutMe />);
+        const img = screen.getByRole('img', { name: 'Foto Kiara'})
+        expect(img).toBeInTheDocument();
+    })
 })
